@@ -1,0 +1,24 @@
+label {
+  font-size: 22px;
+}
+
+body {
+  font-family: 'Spectral', serif;
+  font-size: 18px;
+}
+
+h3, h4, h5, h6 {
+  font-family: 'Marcellus SC', serif;
+}
+
+h1, h2 {
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+.header {
+  padding-top: 5%;
+}
+
+.row {
+  margin-bottom: 5%;
+}
