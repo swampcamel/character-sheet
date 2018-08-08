@@ -22,3 +22,7 @@ h1, h2 {
 .row {
   margin-bottom: 5%;
 }
+
+#sheet {
+  margin-top: 80px;
+}
