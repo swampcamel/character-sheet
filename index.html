@@ -11,7 +11,7 @@
   <body>
     <div class="container">
       <div class="header">
-        <h1>D&D Character Creator</h1>
+        <h1 class="marcellus">D&D Character Creator</h1>
       </div>
       <hr>
       <form id="generator">
@@ -70,6 +70,7 @@
           <div class="form-group">
             <label for="race-select"><h3>Choose Race: </h3></label>
             <select class="form-control" id="race-select">
+              <option disabled selected value> -- select an option -- </option>
               <option>Human</option>
               <option>Dwarf</option>
               <option>Elf</option>
@@ -83,6 +84,7 @@
           <div class="form-group">
             <label for="class-select"><h3>Choose Class: </h3></label>
             <select class="form-control" id="class-select">
+              <option disabled selected value> -- select an option -- </option>
               <option>Fighter</option>
               <option>Rogue</option>
               <option>Wizard</option>
@@ -96,6 +98,7 @@
           <div class="form-group">
             <label for="align-select"><h3>Choose Alignment: </h3></label>
             <select class="form-control" id="align-select">
+              <option disabled selected value> -- select an option -- </option>
               <option>Lawful Good</option>
               <option>Neutral Good</option>
               <option>Chaotic Good</option>
@@ -116,35 +119,48 @@
       <div class="row">
         <div class="col col-3">
           <h2>Name: </h2>
-          <p>placeholder</p>
+          <div class="underline" id="c-name">
+          </div>
         </div>
         <div class="col col-9">
           <div class="row">
             <div class="col">
               <h3>Gender: </h3>
-              <p>placeholder</p>
+              <div class="underline" id="c-gender">
+                <p></p>
+              </div>
             </div>
             <div class="col">
               <h3>Height: </h3>
-              <p>placeholder</p>
+              <div class="underline" id="c-height">
+                <p></p>
+              </div>
             </div>
             <div class="col">
               <h3>Weight: </h3>
-              <p>placeholder</p>
+              <div class="underline" id="c-weight">
+                <p></p>
+              </div>
             </div>
           </div> <!--close inner row 1-->
           <div class="row">
             <div class="col">
               <h3>Race: </h3>
-              <p>placeholder</p>
+              <div class="underline" id="c-race">
+                <p></p>
+              </div>
             </div>
             <div class="col">
               <h3>Class: </h3>
-              <p>placeholder</p>
+              <div class="underline" id="c-class">
+                <p></p>
+              </div>
             </div>
             <div class="col">
               <h3>Alignment: </h3>
-              <p>placeholder</p>
+              <div class="underline" id="c-align">
+                <p></p>
+              </div>
             </div>
           </div> <!--close inner row 2-->
         </div> <!--close right col-->
