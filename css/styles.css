@@ -7,6 +7,7 @@ body {
   font-family: 'Spectral', serif;
   font-size: 18px;
   line-height: 19px;
+  background-color: #DBC053;
 }
 
 h3, h4, h5, h6 {
@@ -48,4 +49,35 @@ h1, h2 {
 
 .underline {
   border-bottom: 1px solid #000;
+}
+
+.col-9 {
+  padding-top: 3%;
+  padding-bottom: 1%;
+  padding-left: 8%;
+  padding-right: 7%;
+  border: #B26D03 solid 1px;
+  -webkit-border-radius: 100px;
+  -webkit-border-bottom-right-radius: 100px;
+  -webkit-border-bottom-left-radius: 100px;
+  -moz-border-radius: 100px;
+  -moz-border-radius-bottomright: 100px;
+  -moz-border-radius-bottomleft: 100px;
+  border-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+
+.cname {
+  padding-top: 4%;
+  text-align: center;
+}
+
+input[type=text], select, textarea {
+    width: 50%;
+    padding: 12px;
+    border: 1px solid #DA0104;
+    border-radius: 30px;
+    background-color: #F4EEB2;
+    resize: horizontal;
 }
